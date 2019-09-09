@@ -6,6 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<p>hola {{$nombre}}</p>
+<p>hola</p>
 </body>
 </html>
