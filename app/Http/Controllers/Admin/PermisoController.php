@@ -26,9 +26,8 @@ class PermisoController extends Controller
      */
     public function crear()
     {
-        dd('Crear');
-    }
-
+        return view('admin.permiso.crear');
+    }    
     /**
      * Store a newly created resource in storage.
      *
