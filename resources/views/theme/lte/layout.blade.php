@@ -16,7 +16,7 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   <!-- custom css persona -->
-  <link rel="stylesheet" href="{{asset("assets/custom.css") }} ">
+  <link rel="stylesheet" href="{{asset("assets/css/custom.css") }} ">
   @yield("style")
 </head>
 <body class="hold-transition sidebar-mini layout-boxed">
@@ -95,7 +95,10 @@
 <!-- AdminLTE App -->
 <script src="{{asset("assets/$theme/dist/js/adminlte.min.js")}}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{asset("assets/$theme/dist/js/demo.js")}}"></script> 
-@yield("script")     
+<script src="{{asset("assets/js/jquery-validation/jquery.validate.min.js")}}"></script> 
+<script src="{{asset("assets/js/jquery-validation/localization/messages_es.min.js")}}"></script> 
+<script src="{{asset("assets/js/funciones") }}"></script>
+@yield("script")  
+   
 </body>
 </html>        
